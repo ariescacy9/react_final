@@ -61,13 +61,13 @@ h3 {
     align-items: none;
   }
   
-  a {
+  .a {
     display: flex;
     align-items: center;
     flex-direction: column;
     box-shadow: 0 0 .5rem #1372df;
   }
-  a:hover {
+  .a:hover {
     background-color: rgb(0, 0, 0);
     border-radius: 8px;
     transform: scale(1.1);

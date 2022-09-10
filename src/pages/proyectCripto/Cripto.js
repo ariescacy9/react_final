@@ -5,7 +5,13 @@ import {Link} from 'react-router-dom'
 
 function Cripto() {
   return (
-    <div>
+    <div div style={{
+      backgroundColor: "rgba(51, 102, 255, 0.1)",
+      borderRadius:'10px',
+      width: '350px',
+      boxShadow: '0 0 .5rem #39e206',
+      margin:'20px'
+    }}>
       <div>
         <img src={cripto} alt="cripto"
         style={{
@@ -15,8 +21,8 @@ function Cripto() {
         }}/>
       </div>
       <div>
-      <h1>Clima</h1>
-      <p>descripcion web clima</p>
+      <h1>Criptomoneda</h1>
+      <p>permite cotizar las criptomonedas segun a tipo de cambio de moneda: dolares, euros, libras y soles peruanos</p>
       </div>
       <Link to='./cripto'><Button variant="contained" style={{
         margin: '20px'

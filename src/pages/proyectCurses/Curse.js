@@ -5,7 +5,13 @@ import {Link} from 'react-router-dom'
 
 function Curse() {
   return (
-    <div>
+    <div div style={{
+      backgroundColor: "rgba(51, 102, 255, 0.1)",
+      borderRadius:'10px',
+      width: '350px',
+      boxShadow: '0 0 .5rem #39e206',
+      margin:'20px'
+    }}>
       <div>
         <img src={curses} alt="curses"
         style={{
@@ -15,8 +21,8 @@ function Curse() {
         }}/>
       </div>
       <div>
-      <h1>Clima</h1>
-      <p>descripcion web clima</p>
+      <h1>Cursos</h1>
+      <p>Muestra el consumo de una Api mediante fetch, traendo valores de cada curso y mostrando en cartas</p>
       </div>
       <Link to='./curso'><Button variant="contained" style={{
         margin: '20px'

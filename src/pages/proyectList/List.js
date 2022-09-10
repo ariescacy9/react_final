@@ -5,7 +5,13 @@ import {Link} from 'react-router-dom'
 
 function List() {
   return (
-    <div>
+    <div div style={{
+      backgroundColor: "rgba(51, 102, 255, 0.1)",
+      borderRadius:'10px',
+      width: '350px',
+      boxShadow: '0 0 .5rem #39e206',
+      margin:'20px'
+    }}>
       <div>
         <img src={contador} alt="contador"
         style={{
@@ -15,8 +21,8 @@ function List() {
         }}/>
       </div>
       <div>
-      <h1>Lista</h1>
-      <p>descripcion web Lista</p>
+      <h1>Cajas</h1>
+      <p>Muestra 3 cajas que se se suman y mantienen la cuenta de clicks con respecto a las demas, tambien muestra el total realizados</p>
       </div>
       <Link to='./box'><Button variant="contained" style={{
         margin: '20px'
