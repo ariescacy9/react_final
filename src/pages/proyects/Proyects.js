@@ -7,13 +7,25 @@ import Web from '../proyectWeb/Web'
 
 function Proyects() {
   return (
-    <div>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      flexWrap: 'wrap',
+      backgroundColor: 'blue'
+    }}>
       <h1>PROYECTS</h1>
-      <Clima/>
-      <Cripto/>
-      <Curse/>
-      <Web/>
-      <List/>
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'space-evenly'
+      }}>
+        <Clima/>
+        <Cripto/>
+        <Curse/>
+        <Web/>
+        <List/>
+      </div>
     </div>
   )
 }

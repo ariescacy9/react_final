@@ -1,9 +1,14 @@
 import React from 'react'
 
+
 function List() {
   return (
     <div>
-      <h1>List</h1>
+      <div>
+      <h1>Lista</h1>
+      <p>descripcion web Lista</p>
+      </div>
+      <button>PROBAR</button>
     </div>
   )
 }
