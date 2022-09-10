@@ -1,0 +1,49 @@
+
+.main {
+  background-color: black;
+}
+.main_img {
+  background-image: url(../../recursos/img/binarygabe.jpg);
+  object-fit:cover;
+  background-size: 100%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+}
+.datePersnal {
+  background-image: url(../../recursos/img/card1.JPG);
+  object-fit: cover;
+  width: 450px;
+  background-size: 100%;
+  height: 256px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 .5rem #150281;
+}
+.datePersnal:hover {
+  border-radius: 8px;
+  transform: scale(1.1);
+  box-shadow: 0 0 .5rem #39e206;
+}
+
+.tecnology {
+  background-image: url(../../recursos/img/card2.JPG);
+  object-fit: cover;
+  width: 450px;
+  background-size: 100%;
+  height: 256px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 .5rem #150281;
+}
+.tecnology:hover {
+  border-radius: 8px;
+  transform: scale(1.1);
+  box-shadow: 0 0 .5rem #39e206;
+}
+
+
+
