@@ -1,5 +1,7 @@
 import React from 'react'
 import curses from '../../recursos/img/curses.JPG'
+import Button from '@mui/material/Button';
+import {Link} from 'react-router-dom'
 
 function Curse() {
   return (
@@ -16,7 +18,9 @@ function Curse() {
       <h1>Clima</h1>
       <p>descripcion web clima</p>
       </div>
-      <button>PROBAR</button>
+      <Link to='./curso'><Button variant="contained" style={{
+        margin: '20px'
+      }}>PROBAR</Button></Link>
     </div>
   )
 }

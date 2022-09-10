@@ -25,6 +25,39 @@ function Main() {
           <p>JavaScript</p>
           <p>React</p>
         </div>
+        <div>
+          <h3>dominio</h3>
+          <div className='tecnologyIcon'>
+            <p>
+            <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='react'/>
+            <p>React</p>
+            </p>
+            <p>
+              <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt='js'/>
+              <p>Javascript</p>
+            </p>
+            <p>
+              <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html'/>
+              <p>HTML</p>
+            </p>
+            <p>
+              <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='css'/>
+              <p>CSS</p>
+            </p>
+            <p>
+              <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt='git'/>
+              <p>Git</p>
+            </p>
+            <p>
+              <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github'/>
+              <p>GitHub</p>
+            </p>
+            <p>
+              <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt='sass'/>
+              <p>Saas</p>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -11,7 +11,7 @@ function Proyects() {
       display: 'flex',
       flexDirection: 'column',
       flexWrap: 'wrap',
-      backgroundColor: 'blue'
+      backgroundColor: '#061b00'
     }}>
       <h1>PROYECTS</h1>
       <div
