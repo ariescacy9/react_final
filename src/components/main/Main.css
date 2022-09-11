@@ -1,47 +1,64 @@
 
 .main {
-  background-color: black;
-}
-.main_img {
   background-image: url(../../recursos/img/binarygabe.jpg);
   object-fit:cover;
   background-size: 100%;
 }
 
-video {
-  width: 100%;
-  height: 100%;
-  object-fit:fill;
+.h1 {
+  margin: 0;
+  padding: 0;
 }
+
 .datePersnal {
   background-image: url(../../recursos/img/card1.JPG);
   opacity: 0.8;
   object-fit: cover;
-  width: 450px;
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
   background-size: 100%;
-  height: 256px;
-  color: white;
+  color: rgb(2, 236, 14);
   border-radius: 10px;
   box-shadow: 0 0 .5rem #150281;
 }
 .datePersnal:hover {
   border-radius: 8px;
   transform: scale(1.1);
-  box-shadow: 0 0 .5rem #39e206;
+  box-shadow: 0 0 .8rem #39e206;
 }
 
 .tecnology {
   background-image: url(../../recursos/img/card2.JPG);
   opacity: 0.8;
   object-fit: cover;
-  width: 450px;
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
   background-size: 100%;
-  height: 256px;
-  color: white;
+  color: rgb(248, 250, 252);
   border-radius: 10px;
-  box-shadow: 0 0 .5rem #150281;
+  box-shadow: 0 0 .8rem #1b01ad;
 }
 .tecnology:hover {
+  border-radius: 8px;
+  transform: scale(1.1);
+  box-shadow: 0 0 .5rem #39e206;
+}
+
+.futuro {
+  background-image: url(../../recursos/img/card4.JPG);
+  opacity: 0.8;
+  object-fit: cover;
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+  background-size: 100%;
+  color: rgb(248, 250, 252);
+  border-radius: 10px;
+  box-shadow: 0 0 .8rem #1b01ad;
+}
+.futuro :hover {
   border-radius: 8px;
   transform: scale(1.1);
   box-shadow: 0 0 .5rem #39e206;

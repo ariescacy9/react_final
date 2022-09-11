@@ -2,29 +2,36 @@ import React from 'react'
 import './Main.css'
 //import videoBG1 from '../../recursos/videos/videobg1.mp4'
 
-
-
 function Main() {
   return (
     <div className='main'>
       <div className='main_img'>
         <div className='video'>
-          <h3>alguito</h3>
-        </div>
-        <h1>SOY INICIO</h1>
-        <div className='datePersnal'>
-          <h2>DATOS PERSONALES</h2>
-          <p>NOMBRES: Cristian Alexander</p>
-          <p>APELLIDOS: Carhuas Yuyale</p>
-          <p>EDAD: 28</p>
-        </div>
+          </div>
+            <h1 className='h1'>Bienvenidos!!!</h1>
+              <div className='datePersnal'>
+                <h2>DATOS PERSONALES</h2>
+                <p>NOMBRES: Cristian Alexander</p>
+                <p>APELLIDOS: Carhuas Yuyale</p>
+                <p>EDAD: 28</p>
+              </div>
+
         <div className='tecnology'>
-          <h3>tecnologias</h3>
+          <h3>TECNOLOGIAS</h3>
           <p>HTML</p>
           <p>CSS</p>
           <p>JavaScript</p>
           <p>React</p>
         </div>
+
+        <div className='futuro'>
+          <h3>Futuro Full Stack</h3>
+          <h4>Actualmente estoy en etapa de preparacion Front End, hacentando cada vez más los conocimientos solidos y poniendo ya en practica lo aprendido</h4>
+          <h4>En la parte de BackEnd tambien ya tengo la parte teorica de los conceptos fundamentales, pero aun me falta abarcar mas ese campo y experimentar</h4>
+          <h4>a diario voy aprendiendo y poniendo en practica lo aprendido</h4>
+          <h4>¡Nunca se deja de aprender!</h4>
+        </div>
+
         <div>
           <h3>dominio</h3>
           <div className='tecnologyIcon'>
