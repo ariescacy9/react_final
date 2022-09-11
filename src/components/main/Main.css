@@ -3,7 +3,18 @@
   background-image: url(../../recursos/img/binarygabe.jpg);
   object-fit:cover;
   background-size: 100%;
+  display: flex;
+  flex-direction: column;
 }
+
+.main_description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
 
 .h1 {
   margin: 0;
@@ -46,11 +57,12 @@
   box-shadow: 0 0 .5rem #39e206;
 }
 
-.futuro {
+.main_description-futuro {
   background-image: url(../../recursos/img/card4.JPG);
   opacity: 0.8;
   object-fit: cover;
-  width: 50%;
+  width: 550px;
+  height: 300px;
   margin: 20px;
   padding: 20px;
   background-size: 100%;
@@ -58,9 +70,9 @@
   border-radius: 10px;
   box-shadow: 0 0 .8rem #1b01ad;
 }
-.futuro :hover {
+.main_description-futuro :hover {
   border-radius: 8px;
-  transform: scale(1.1);
+  transform: scale(0.8.1);
   box-shadow: 0 0 .5rem #39e206;
 }
 
@@ -68,11 +80,81 @@
   width: 60px;
 }
 
-.tecnologyIcon {
+.main_tecnology {
   display: flex;
-  background-color: rgb(0, 0, 110);
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
+.main_tecnology-icon {
+  display: flex;
+  background-image: url(../../recursos/img/card3.JPG);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  opacity: 0.9;
+  object-fit: cover;
+  width: 550px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-size: 100%;
+  color: rgb(248, 250, 252);
+  border-radius: 10px;
+  box-shadow: 0 0 .8rem #1b01ad;
+  flex-direction: column;
+}
 
+@media (prefers-reduced-motion: no-preference) {
+  .icon {
+    animation: icon-spin infinite 20s linear;
+  }
+}
+@keyframes icon-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@media (max-width: 660px){
+  .datePersnal {
+    width: 90%;
+    background-repeat: no-repeat;
+    height: fit-content;
+  }
+  .tecnology {
+    width: 90%;
+    background-repeat: no-repeat;
+    height: fit-content;
+  }
+  .main_description-futuro {
+    width: 90%;
+    height: fit-content;
+  }
+  .main_tecnology-icon{
+    width: 90%;
+  }
+}
+@media (max-width: 280px){
+  .datePersnal {
+    width: 70%;
+    background-repeat: repeat;
+    height: fit-content;
+  }
+  .tecnology {
+    width: 70%;
+    height: fit-content;
+    background-repeat: repeat;
+  }
+  .main_description-futuro {
+    width: 90%;
+    height: fit-content;
+  }
+  .main_tecnology-icon{
+    width: 70%;
+  }
+  .icon {
+    width: 40px;
+  }
+}
