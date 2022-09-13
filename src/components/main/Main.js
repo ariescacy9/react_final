@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css'
-//import videoBG1 from '../../recursos/videos/videobg1.mp4'
+
 
 function Main() {
   return (
@@ -32,34 +32,34 @@ function Main() {
       </div>
       <div className='main_tecnology'>
         <div className='main_tecnology-icon'>
-            <p>
+            <div>
             <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='react'/>
             <p>React</p>
-            </p>
-            <p>
+            </div>
+            <div>
               <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt='js'/>
               <p>Javascript</p>
-            </p>
-            <p>
+            </div>
+            <div>
               <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html'/>
               <p>HTML</p>
-            </p>
-            <p>
+            </div>
+            <div>
               <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='github'/>
               <p>GitHub</p>
-            </p>
-            <p>
+            </div>
+            <div>
               <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt='git'/>
               <p>Git</p>
-            </p>
-            <p>
+            </div>
+            <div>
               <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='css'/>
               <p>CSS</p>
-            </p>
-            <p>
+            </div>
+            <div>
               <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt='sass'/>
               <p>Saas</p>
-            </p>
+            </div>
         </div>
       </div>
     </div>
