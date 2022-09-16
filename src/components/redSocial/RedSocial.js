@@ -18,7 +18,7 @@ function RedSocial() {
             color="primary" fontSize="large" sx={{ borderRadius: '8px',
             boxShadow: '0 0 .5rem #1372df '}} />
         </a>
-        <a href="www.linkedin.com/in/cristian-alexander-carhuas-yuyale-2a98a522a" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/cristian-alexander-carhuas-yuyale-2a98a522a" target="_blank" rel="noreferrer">
           <LinkedInIcon
             sx={{ color: '#1003AE',borderRadius: '8px',
             boxShadow: '0 0 .5rem #1372df '}} fontSize="large"/>
