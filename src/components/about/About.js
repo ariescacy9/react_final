@@ -1,12 +1,10 @@
 import React from 'react'
-import RedSocial from '../redSocial/RedSocial'
 import './About.css'
 
 
 function About() {
   return (
     <div className='about'>
-      <RedSocial/>
       <div>
         <h1>Formación</h1>
         <h2>Cursos Online</h2>

@@ -11,12 +11,14 @@ import ShowClima from '../pages/proyectClima/ShowClima'
 import ShowCripto from '../pages/proyectCripto/ShowCripto'
 import ShowCurse from '../pages/proyectCurses/ShowCurse'
 import ShowBox from '../pages/proyectList/ShowBox'
+import RedSocial from '../components/redSocial/RedSocial'
 
 
 function AppRouter() {
   return (
     <BrowserRouter>
       <Navbar/>
+      <RedSocial/>
       <Routes>
         <Route path='/' exact element={<Main/>} />
         <Route path='/about' element={<About/>} />

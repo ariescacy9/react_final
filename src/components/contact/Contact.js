@@ -3,7 +3,6 @@ import ContextProvider from '../../hooks/useList'
 import AddExpenses from '../gastos/AddExpenses'
 import CountExpenses from '../gastos/CountExpenses'
 import ExpensesMonth from '../gastos/ExpensesMonth'
-import RedSocial from '../redSocial/RedSocial'
 import './Contact.css'
 
 function Contact() {
@@ -15,7 +14,6 @@ function Contact() {
         <CountExpenses/>
         <ExpensesMonth/>
       </ContextProvider>
-      <RedSocial/>
     </div>
   )
 }

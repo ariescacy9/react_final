@@ -5,6 +5,7 @@ export default function AddExpenses() {
 
   const { addList } = useContext(ListContext);
   const [newItem, setNewItem] = useState("");
+  //document.querySelector('#spend').focus();
 
   function submit(e) {
     e.preventDefault ();
@@ -21,7 +22,6 @@ export default function AddExpenses() {
         onChange = {(e)=> setNewItem(e.target.value)}
         style={{padding: '20px'}}
       />
-        
       <button type="Submit" style={{padding: '20px', margin: '10px'}}> Agregar gasto </button>
   </form>
   );

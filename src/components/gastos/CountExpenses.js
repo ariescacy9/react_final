@@ -8,5 +8,5 @@ export default function CountExpenses (){
   for (let i = 0; i < list.length; i++) {
     sum += Number(list[i]);
   }
-  return <div> Gasto mensual: S/. {sum} soles</div>;
+  return <div title="gasto"> Gasto mensual: S/. {sum} soles</div>;
 }
