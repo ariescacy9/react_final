@@ -15,7 +15,7 @@ function Proyects() {
       color: 'white',
       margin:'0'
     }}>
-      <h1>PROYECTS</h1>
+      <h1>PROYECTOS</h1>
       <div
         style={{
           display: 'flex',
